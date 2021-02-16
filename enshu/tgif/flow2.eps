@@ -1,7 +1,7 @@
 %!PS-Adobe-3.0 EPSF-3.0
-%%BoundingBox: 178 552 325 807
-%%Title: flowchart
-%%CreationDate: Tue May 27 17:10:31 2014
+%%BoundingBox: 178 489 433 807
+%%Title: flowchart2
+%%CreationDate: Tue May 27 13:51:55 2014
 %%Creator: Tgif-4.2.5 written by William Chia-Wei Cheng (bill.cheng@acm.org)
 %%ProducedBy: (unknown)
 %%Pages: 1
@@ -95,7 +95,7 @@ end
 %%EndProlog
 %%Page: 1 1
 
-%%PageBoundingBox: 178 552 325 807
+%%PageBoundingBox: 178 489 433 807
 tgifdict begin
 /tgifsavedpage save def
 
@@ -129,33 +129,27 @@ GS
    GR
 GR
 
-% BOX
+% POLYGON/CLOSED-SPLINE
 0 SG
+NP
+   320 384 M
+   416 352 L
+   512 384 L
+   416 416 L
+CP
 GS
-   10 SM
-   GS
-      NP 320 160 M 512 160 L 512 224 L 320 224 L CP
-      S
-   GR
 GR
-
-% BOX
-0 SG
 GS
-   10 SM
-   GS
-      NP 320 352 M 512 352 L 512 416 L 320 416 L CP
-      S
-   GR
+   S
 GR
 
 % POLYGON/CLOSED-SPLINE
 0 SG
 NP
-   320 288 M
-   416 256 L
-   512 288 L
-   416 320 L
+   352 160 M
+   320 224 L
+   480 224 L
+   512 160 L
 CP
 GS
 GR
@@ -168,14 +162,14 @@ GR
 GS
    GS
       NP
-         496 448 M
-         512 448 512 512 16 AR
-         512 496 L
-         512 512 320 512 16 AR
-         336 512 L
-         320 512 320 448 16 AR
-         320 464 L
-         320 448 512 448 16 AR
+         496 560 M
+         512 560 512 624 16 AR
+         512 608 L
+         512 624 320 624 16 AR
+         336 624 L
+         320 624 320 560 16 AR
+         320 576 L
+         320 560 512 560 16 AR
       CP
       S
    GR
@@ -211,33 +205,13 @@ NP
         GS
         0
             /Courier FF [20 0 0 -20 0 0] MS
-            (read a) TGSW 
+            (read  a) TGSW 
         AD
         GR
       2 DI NE 0 RM
             0 SG
             /Courier FF [20 0 0 -20 0 0] MS
-            (read a) SH
-      GR
-   GR
-
-% TEXT
-NP
-0 SG
-   GS
-      1 W
-      416 294 M
-      GS
-        GS
-        0
-            /Courier FF [20 0 0 -20 0 0] MS
-            (a > 0) TGSW 
-        AD
-        GR
-      2 DI NE 0 RM
-            0 SG
-            /Courier FF [20 0 0 -20 0 0] MS
-            (a > 0) SH
+            (read  a) SH
       GR
    GR
 
@@ -251,13 +225,13 @@ NP
         GS
         0
             /Courier FF [20 0 0 -20 0 0] MS
-            (print "ERROE") TGSW 
+            (a < 0) TGSW 
         AD
         GR
       2 DI NE 0 RM
             0 SG
             /Courier FF [20 0 0 -20 0 0] MS
-            (print "ERROE") SH
+            (a < 0) SH
       GR
    GR
 
@@ -266,7 +240,7 @@ NP
 0 SG
    GS
       1 W
-      416 486 M
+      416 598 M
       GS
         GS
         0
@@ -308,21 +282,10 @@ GR
 GS
    NP
       416 320 M
-      32 0 atan DU cos 8.000 MU 416 exch SU
-      exch sin 8.000 MU 352 exch SU L
+      416 352 L
    TGSM
    1 W
    S
-GR
-GS
-   TGSM
-   NP
-      416 352 8.000 3.000 0 32 TGAT
-   1 SG CP F
-   0 SG
-   NP
-      416 352 8.000 3.000 0 32 TGAT
-   CP F
 GR
 
 % POLY/OPEN-SPLINE
@@ -351,11 +314,9 @@ GR
 0 SG
 GS
    NP
-      512 288 M
-      576 288 L
-      576 432 L
-      0 -160 atan DU cos 8.000 MU 416 exch SU
-      exch sin 8.000 MU 432 exch SU L
+      416 512 M
+      48 0 atan DU cos 8.000 MU 416 exch SU
+      exch sin 8.000 MU 560 exch SU L
    TGSM
    1 W
    S
@@ -363,13 +324,255 @@ GR
 GS
    TGSM
    NP
-      416 432 8.000 3.000 -160 0 TGAT
+      416 560 8.000 3.000 0 48 TGAT
    1 SG CP F
    0 SG
    NP
-      416 432 8.000 3.000 -160 0 TGAT
+      416 560 8.000 3.000 0 48 TGAT
    CP F
 GR
+
+% POLY/OPEN-SPLINE
+0 SG
+GS
+   NP
+      512 384 M
+      544 384 L
+      544 528 L
+      0 -128 atan DU cos 8.000 MU 416 exch SU
+      exch sin 8.000 MU 528 exch SU L
+   TGSM
+   1 W
+   S
+GR
+GS
+   TGSM
+   NP
+      416 528 8.000 3.000 -128 0 TGAT
+   1 SG CP F
+   0 SG
+   NP
+      416 528 8.000 3.000 -128 0 TGAT
+   CP F
+GR
+
+% TEXT
+NP
+0 SG
+   GS
+      1 W
+      528 374 M
+      GS
+        GS
+        0
+            /Courier FF [20 0 0 -20 0 0] MS
+            (YES) TGSW 
+        AD
+        GR
+      2 DI NE 0 RM
+            0 SG
+            /Courier FF [20 0 0 -20 0 0] MS
+            (YES) SH
+      GR
+   GR
+
+% TEXT
+NP
+0 SG
+   GS
+      1 W
+      432 438 M
+      GS
+        GS
+        0
+            /Courier FF [20 0 0 -20 0 0] MS
+            (NO) TGSW 
+        AD
+        GR
+      2 DI NE 0 RM
+            0 SG
+            /Courier FF [20 0 0 -20 0 0] MS
+            (NO) SH
+      GR
+   GR
+
+% POLYGON/CLOSED-SPLINE
+0 SG
+NP
+   320 288 M
+   416 256 L
+   512 288 L
+   416 320 L
+CP
+GS
+GR
+GS
+   S
+GR
+
+% TEXT
+NP
+0 SG
+   GS
+      1 W
+      416 294 M
+      GS
+        GS
+        0
+            /Courier FF [20 0 0 -20 0 0] MS
+            (a > 0) TGSW 
+        AD
+        GR
+      2 DI NE 0 RM
+            0 SG
+            /Courier FF [20 0 0 -20 0 0] MS
+            (a > 0) SH
+      GR
+   GR
+
+% POLY/OPEN-SPLINE
+0 SG
+GS
+   NP
+      512 288 M
+      704 288 L
+      704 544 L
+      0 -288 atan DU cos 8.000 MU 416 exch SU
+      exch sin 8.000 MU 544 exch SU L
+   TGSM
+   1 W
+   S
+GR
+GS
+   TGSM
+   NP
+      416 544 8.000 3.000 -288 0 TGAT
+   1 SG CP F
+   0 SG
+   NP
+      416 544 8.000 3.000 -288 0 TGAT
+   CP F
+GR
+
+% BOX
+0 SG
+NP 480 448 M 608 448 L 608 512 L 480 512 L CP 1 SG F
+   0 SG
+GS
+   10 SM
+   GS
+      NP 480 448 M 608 448 L 608 512 L 480 512 L CP
+      S
+   GR
+GR
+
+% TEXT
+NP
+0 SG
+   GS
+      1 W
+      544 476 M
+      GS
+        GS
+        0
+            /Courier FF [20 0 0 -20 0 0] MS
+            (negative) TGSW 
+        AD
+        GR
+      2 DI NE 0 RM
+            0 SG
+            /Courier FF [20 0 0 -20 0 0] MS
+            (negative) SH
+      GR
+      0 19 RM
+      GS
+        GS
+        0
+            /Courier FF [20 0 0 -20 0 0] MS
+            (number) TGSW 
+        AD
+        GR
+      2 DI NE 0 RM
+            0 SG
+            /Courier FF [20 0 0 -20 0 0] MS
+            (number) SH
+      GR
+   GR
+
+% BOX
+0 SG
+GS
+   10 SM
+   GS
+      NP 320 448 M 448 448 L 448 512 L 320 512 L CP
+      S
+   GR
+GR
+
+% TEXT
+NP
+0 SG
+   GS
+      1 W
+      384 486 M
+      GS
+        GS
+        0
+            /Courier FF [20 0 0 -20 0 0] MS
+            (zero) TGSW 
+        AD
+        GR
+      2 DI NE 0 RM
+            0 SG
+            /Courier FF [20 0 0 -20 0 0] MS
+            (zero) SH
+      GR
+   GR
+
+% BOX
+0 SG
+NP 640 448 M 768 448 L 768 512 L 640 512 L CP 1 SG F
+   0 SG
+GS
+   10 SM
+   GS
+      NP 640 448 M 768 448 L 768 512 L 640 512 L CP
+      S
+   GR
+GR
+
+% TEXT
+NP
+0 SG
+   GS
+      1 W
+      704 476 M
+      GS
+        GS
+        0
+            /Courier FF [20 0 0 -20 0 0] MS
+            (positive) TGSW 
+        AD
+        GR
+      2 DI NE 0 RM
+            0 SG
+            /Courier FF [20 0 0 -20 0 0] MS
+            (positive) SH
+      GR
+      0 19 RM
+      GS
+        GS
+        0
+            /Courier FF [20 0 0 -20 0 0] MS
+            (number) TGSW 
+        AD
+        GR
+      2 DI NE 0 RM
+            0 SG
+            /Courier FF [20 0 0 -20 0 0] MS
+            (number) SH
+      GR
+   GR
 
 % TEXT
 NP
@@ -417,6 +620,6 @@ end
 showpage
 
 %%Trailer
-%MatchingCreationDate: Tue May 27 17:10:31 2014
+%MatchingCreationDate: Tue May 27 13:51:55 2014
 %%DocumentFonts: Courier
 %%EOF
